@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1338.0" style="-fx-background-color: bl;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cpechecklist.Controller">
+   <children>
+      <Rectangle fx:id="lbyec3b" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="274.0" onMouseEntered="#lbyec3benter" onMouseExited="#lbyec3bexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpf2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="352.0" onMouseEntered="#lbycpf2enter" onMouseExited="#lbycpf2exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="nummets" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="40.0" onMouseEntered="#nummetsenter" onMouseExited="#nummetsexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="gematmw" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="123.0" layoutY="586.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="fndmath" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="14.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <ToolBar layoutX="29.0" layoutY="57.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FNDMATH" />
+         </items>
+         <tooltip>
+            <Tooltip text="Foundation in Math" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Rectangle fx:id="caleng1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="124.0" layoutY="40.0" onMouseEntered="#caleng1enter" onMouseExited="#caleng1exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="40.0" onMouseEntered="#caleng2enter" onMouseExited="#caleng2exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="40.0" onMouseEntered="#caleng3enter" onMouseExited="#caleng3exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="fdcnsys" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="41.0" onMouseEntered="#fdcnsysenter" onMouseExited="#fdcnsysexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="micpros" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="41.0" onMouseEntered="#micprosenter" onMouseExited="#micprosexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng1111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="894.0" layoutY="41.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng1122" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1004.0" layoutY="41.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng11211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1114.0" layoutY="42.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng11221" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1224.0" layoutY="42.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="fndstat" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="14.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="coedisc" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="124.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="engphys" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="118.0" onMouseEntered="#engphysenter" onMouseExited="#engphysexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="engchem" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="118.0" onMouseEntered="#engchementer" onMouseExited="#engchemexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="engdata" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="118.0" onMouseEntered="#engdataenter" onMouseExited="#engdataexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpc3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="118.0" onMouseEntered="#lbycpc3enter" onMouseExited="#lbycpc3exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpa3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="118.0" onMouseEntered="#lbycpa3enter" onMouseExited="#lbycpa3exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng11111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="894.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng11222" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1004.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng112111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1114.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng112211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1224.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="baschem" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="14.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpa1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="124.0" layoutY="196.0" onMouseEntered="#lbycpa1enter" onMouseExited="#lbycpa1exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbyph1a" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="196.0" onMouseEntered="#lbyph1aenter" onMouseExited="#lbyph1aexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbbch1a" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="196.0" onMouseEntered="#lbbch1aenter" onMouseExited="#lbbch1aexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpd2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="196.0" onMouseEntered="#lbycpd2enter" onMouseExited="#lbycpd2exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbyme1c" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpb3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="196.0" onMouseEntered="#lbycpb3enter" onMouseExited="#lbycpb3exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng111111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="894.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng112221" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1004.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng1121111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1114.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="caleng1122111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="1224.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Line endX="1237.0" endY="-1.9073486328125E-6" layoutX="101.0" layoutY="30.0" startX="-100.0" />
+      <Text layoutX="152.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1st Year">
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Rectangle fx:id="basphys" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="14.0" layoutY="274.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="geartap" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="14.0" layoutY="352.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Text layoutX="39.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GEARTAP" />
+      <Rectangle fx:id="lboec2a" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="124.0" layoutY="274.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="prologi" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="124.0" layoutY="352.0" onMouseEntered="#prologienter" onMouseExited="#prologiexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="gestsoc" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="124.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="gerizal" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="124.0" layoutY="508.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Text layoutX="143.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GEMATMW" />
+      <Text layoutX="148.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTSOC" />
+      <Text layoutX="150.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GERIZAL" />
+      <Button layoutX="49.0" layoutY="689.0" mnemonicParsing="false" prefHeight="1.0" prefWidth="16.0" style="-fx-background-color: yellow;">
+         <tooltip>
+            <Tooltip text="Pre-Requisite" />
+         </tooltip>
+      </Button>
+      <Button layoutX="21.0" layoutY="689.0" mnemonicParsing="false" prefHeight="1.0" prefWidth="16.0" style="-fx-background-color: cyan;">
+         <tooltip>
+            <Tooltip text="Co-Requisite" />
+         </tooltip>
+      </Button>
+      <Button layoutX="78.0" layoutY="689.0" mnemonicParsing="false" prefHeight="1.0" prefWidth="16.0" style="-fx-background-color: greenyellow;">
+         <tooltip>
+            <Tooltip text="Soft-Requisite" />
+         </tooltip>
+      </Button>
+      <Rectangle fx:id="lbyec2b" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="274.0" onMouseEntered="#lbyec2benter" onMouseExited="#lbyec2bexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpei" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="352.0" onMouseEntered="#lbycpeienter" onMouseExited="#lbycpeiexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="gepcomm" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lcfaith" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="508.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lcfilia" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="234.0" layoutY="586.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Text layoutX="261.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LCFAITH" />
+      <Text layoutX="264.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LCFILIA" />
+      <Text fontSmoothingType="LCD" layoutX="106.0" layoutY="706.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-- does not include non-acad subjects">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="481.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2nd Year">
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Rectangle fx:id="discrmt" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="274.0" onMouseEntered="#discrmtenter" onMouseExited="#discrmtexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpa2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="352.0" onMouseEntered="#lbycpa2enter" onMouseExited="#lbycpa2exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="datsral" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="430.0" onMouseEntered="#datsralenter" onMouseExited="#datsralexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="fundckt" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="508.0" onMouseEntered="#fundcktenter" onMouseExited="#fundcktexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbyec2m" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="344.0" layoutY="586.0" onMouseEntered="#lbyec2menter" onMouseExited="#lbyec2mexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="geftwel" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="343.0" layoutY="664.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Text layoutX="368.0" layoutY="698.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GEFTWEL" />
+      <ToolBar layoutX="469.0" layoutY="56.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="NUMMETS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Numerical Methods" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="470.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ENGDATA" />
+         </items>
+         <tooltip>
+            <Tooltip text="Engineering Data Analysis" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="472.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPD2" />
+         </items>
+         <tooltip>
+            <Tooltip text="Software Design Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Rectangle fx:id="sofdesg" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="274.0" onMouseEntered="#sofdesgenter" onMouseExited="#sofdesgexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="engenvi" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="352.0" onMouseEntered="#engenvienter" onMouseExited="#engenviexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="fundlec" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="430.0" onMouseEntered="#fundlecenter" onMouseExited="#fundlecexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpc2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="508.0" onMouseEntered="#lbycpc2enter" onMouseExited="#lbycpc2exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="gedance" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="454.0" layoutY="586.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <ToolBar layoutX="471.0" layoutY="290.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SOFDESG" />
+         </items>
+         <tooltip>
+            <Tooltip text="Software Design Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="473.0" layoutY="368.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ENGENVI" />
+         </items>
+         <tooltip>
+            <Tooltip text="Environmental Science and Engineering" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="472.0" layoutY="447.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FUNDLEC" />
+         </items>
+         <tooltip>
+            <Tooltip text="Fundamentals of Electronic Circuits Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="474.0" layoutY="524.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPC2" />
+         </items>
+         <tooltip>
+            <Tooltip text="Fundamentals of Electronic Circuits Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Text layoutX="478.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GEDANCE" />
+      <ToolBar layoutX="361.0" layoutY="56.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CALENG3" />
+         </items>
+         <tooltip>
+            <Tooltip text="Differential Equations" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="251.0" layoutY="56.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CALENG2" />
+         </items>
+         <tooltip>
+            <Tooltip text="Integral Calculus" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="142.0" layoutY="56.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CALENG1" />
+         </items>
+         <tooltip>
+            <Tooltip text="Differential Calculus" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="359.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ENGCHEM" />
+         </items>
+         <tooltip>
+            <Tooltip text="Chemistry for Engineers" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="363.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBBCH1A" />
+         </items>
+         <tooltip>
+            <Tooltip text="Chemistry for Engineers Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="251.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ENGPHYS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Physics for Engineers" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="144.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="COEDISC" />
+         </items>
+         <tooltip>
+            <Tooltip text="Computer Engineering as a Discipline" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="33.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FNDSTAT" />
+         </items>
+         <tooltip>
+            <Tooltip text="Foundation in Statistics" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="362.0" layoutY="290.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DISCRMT" />
+         </items>
+         <tooltip>
+            <Tooltip text="Discrete Mathematics" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="362.0" layoutY="447.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DATSRAL" />
+         </items>
+         <tooltip>
+            <Tooltip text="Data Structures and Algorithms Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="362.0" layoutY="368.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPA2" />
+         </items>
+         <tooltip>
+            <Tooltip text="Data Structures and Algorithms Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="361.0" layoutY="524.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FUNDCKT" />
+         </items>
+         <tooltip>
+            <Tooltip text="Fundamentals of Electrical Circuits Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="362.0" layoutY="602.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYEC2M" />
+         </items>
+         <tooltip>
+            <Tooltip text="Fundamentals of Electrical Circuits Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="252.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYPH1A" />
+         </items>
+         <tooltip>
+            <Tooltip text="Physics for Engineers Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="252.0" layoutY="290.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBOEC2B" />
+         </items>
+         <tooltip>
+            <Tooltip text="Computer Fundamentals and Programming 2" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="255.0" layoutY="368.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPEI" />
+         </items>
+         <tooltip>
+            <Tooltip text="Object-Oriented Programming Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="143.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPA1" />
+         </items>
+         <tooltip>
+            <Tooltip text="Programming Logic and Design Laboratory " />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="143.0" layoutY="290.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBOEC2A" />
+         </items>
+         <tooltip>
+            <Tooltip text="Computer Fundamentals and Programming 1" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="143.0" layoutY="368.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PROLOGI" />
+         </items>
+         <tooltip>
+            <Tooltip text="Programming Logic and Design Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="31.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="BASCHEM" />
+         </items>
+         <tooltip>
+            <Tooltip text="Basic Chemistry" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="32.0" layoutY="290.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="BASPHYS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Basic Physics" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="582.0" layoutY="56.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FDCNSYS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Feedback and Control Systems" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="584.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPC3" />
+         </items>
+         <tooltip>
+            <Tooltip text="Feedback and Control Systems Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Rectangle fx:id="mxsigfn" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="274.0" onMouseEntered="#mxsigfnenter" onMouseExited="#mxsigfnexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="logdsgn" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="352.0" onMouseEntered="#logdsgnenter" onMouseExited="#logdsgnexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpg4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="430.0" onMouseEntered="#lbycpg4enter" onMouseExited="#lbycpg4exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lcfilib" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="508.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="gesport" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="564.0" layoutY="586.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <ToolBar layoutX="582.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYME1C" />
+         </items>
+         <tooltip>
+            <Tooltip text="Computer-Aided Drafting (CAD) for ECE and CpE" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="582.0" layoutY="291.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MXSIGFN" />
+         </items>
+         <tooltip>
+            <Tooltip text="Fundamentals of Mixed Signals and Sensors" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="580.0" layoutY="368.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LOGDSGN" />
+         </items>
+         <tooltip>
+            <Tooltip text="Logic Circuits and Design Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="583.0" layoutY="447.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPG4" />
+         </items>
+         <tooltip>
+            <Tooltip text="Logic Circuits and Design Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Text layoutX="595.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LCFILIB" />
+      <Text layoutX="589.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESPORT" />
+      <ToolBar layoutX="692.0" layoutY="56.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MICPROS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Microprocessors Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="693.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPA3" />
+         </items>
+         <tooltip>
+            <Tooltip text="Microprocessors Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="693.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPB3" />
+         </items>
+         <tooltip>
+            <Tooltip text="Computer Engineering Drafting and Design Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="693.0" layoutY="291.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYEC3B" />
+         </items>
+         <tooltip>
+            <Tooltip text="Intelligent Systems for Engineering" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="694.0" layoutY="368.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPF2" />
+         </items>
+         <tooltip>
+            <Tooltip text="Introduction to HDL Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Rectangle fx:id="lbycpg2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="digdacm" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="508.0" onMouseEntered="#digdacmenter" onMouseExited="#digdacmexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="geteams" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="664.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <ToolBar layoutX="692.0" layoutY="447.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPG2" />
+         </items>
+         <tooltip>
+            <Tooltip text="Basic Computer Systems Administration" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="690.0" layoutY="524.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DIGDACM" />
+         </items>
+         <tooltip>
+            <Tooltip text="Data and Digital Communications" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Text layoutX="698.0" layoutY="698.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GETEAMS" />
+      <Rectangle fx:id="gesport1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="674.0" layoutY="586.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Text layoutX="700.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GEETHIC" />
+      <ToolBar layoutX="245.0" layoutY="447.0" prefHeight="27.0" prefWidth="78.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" GEPCOMM" textAlignment="CENTER" />
+         </items>
+         <tooltip>
+            <Tooltip text="Purposive Communications" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Rectangle fx:id="opessys" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="274.0" onMouseEntered="#opessysenter" onMouseExited="#opessysexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpo1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="352.0" onMouseEntered="#lbycpo1enter" onMouseExited="#lbycpo1exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="csysarc" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="41.0" onMouseEntered="#csysarcenter" onMouseExited="#csysarcexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpd3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="118.0" onMouseEntered="#lbycpd3enter" onMouseExited="#lbycpd3exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="embdsys" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="196.0" onMouseEntered="#embdsysenter" onMouseExited="#embdsysexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="remeths" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="430.0" onMouseEntered="#remethsenter" onMouseExited="#remethsexit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpg3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="508.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="geteams1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="664.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="lbycpm3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="784.0" layoutY="586.0" onMouseEntered="#lbycpm3enter" onMouseExited="#lbycpm3exit" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <ToolBar layoutX="803.0" layoutY="56.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CSYSARC" />
+         </items>
+         <tooltip>
+            <Tooltip text="Computer Architecture and Organization Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="803.0" layoutY="134.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPD3" />
+         </items>
+         <tooltip>
+            <Tooltip text="Computer Architecture and Organization Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="802.0" layoutY="213.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="EMBDSYS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Embedded Systems Lecture" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="804.0" layoutY="291.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="OPESSYS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Operating Systems" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="803.0" layoutY="368.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPO1" />
+         </items>
+         <tooltip>
+            <Tooltip text="Operating Systems Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="802.0" layoutY="447.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="REMETHS" />
+         </items>
+         <tooltip>
+            <Tooltip text="Methods of Research for CpE" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="802.0" layoutY="524.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPG3" />
+         </items>
+         <tooltip>
+            <Tooltip text="Online Technologies Laboratory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <ToolBar layoutX="801.0" layoutY="602.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LBYCPM3" />
+         </items>
+         <tooltip>
+            <Tooltip text="Embedded Systems Laboratoory" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </ToolBar>
+      <Text layoutX="811.0" layoutY="698.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GELECST" />
+      <Text layoutX="811.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3rd Year">
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>
